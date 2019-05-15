@@ -1,0 +1,167 @@
+.calendar {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 707px;
+}
+
+.calendar div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0.5px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calendar div:hover {
+  background-color: pink;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.calendar div::after {
+  content: "1";
+}
+
+.calendar div::after {
+  content: "2";
+}
+
+.calendar div::after {
+  content: "3";
+}
+
+.calendar div::after {
+  content: "4";
+}
+
+.calendar div::after {
+  content: "5";
+}
+
+.calendar div::after {
+  content: "6";
+}
+
+.calendar div::after {
+  content: "7";
+}
+
+.calendar div::after {
+  content: "8";
+}
+
+.calendar div::after {
+  content: "9";
+}
+
+.calendar div::after {
+  content: "10";
+}
+
+.calendar div::after {
+  content: "11";
+}
+
+.calendar div::after {
+  content: "12";
+}
+
+.calendar div::after {
+  content: "13";
+}
+
+.calendar div::after {
+  content: "14";
+}
+
+.calendar div::after {
+  content: "15";
+}
+
+.calendar div::after {
+  content: "16";
+}
+
+.calendar div::after {
+  content: "17";
+}
+
+.calendar div::after {
+  content: "18";
+}
+
+.calendar div::after {
+  content: "19";
+}
+
+.calendar div::after {
+  content: "20";
+}
+
+.calendar div::after {
+  content: "21";
+}
+
+.calendar div::after {
+  content: "22";
+}
+
+.calendar div::after {
+  content: "23";
+}
+
+.calendar div::after {
+  content: "24";
+}
+
+.calendar div::after {
+  content: "25";
+}
+
+.calendar div::after {
+  content: "26";
+}
+
+.calendar div::after {
+  content: "27";
+}
+
+.calendar div::after {
+  content: "28";
+}
+
+.calendar div::after {
+  content: "29";
+}
+
+.calendar div::after {
+  content: "30";
+}
+
+.calendar div::after {
+  content: "31";
+}
+/*# sourceMappingURL=main.css.map */
